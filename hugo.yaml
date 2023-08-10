@@ -119,9 +119,9 @@ params:
     enable: true
     intro: "> Hello World! My name is"
     title: "Jay Esquivel Jr."
-    subtitle: "Building to learn, learning to build."
-    content: "Software Engineer. Currently exploring the integration of AI/ML in web development. Check out my latest project which combines GPT and Langchain to respond to queries on any inputted PDFs!"
-    image: /images/hero.svg
+    subtitle: "Build to learn, Learn to build."
+    content: "Software Engineer based in Vancouver, BC. Exploring integrations of AI/ML into life! Trying to make the world a better place, one tool at a time. Check out my latest project which combines GPT and Langchain to respond to queries on any inputted PDFs."
+    image: /images/hero.JPG
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -149,7 +149,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me.jpg"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
 
@@ -238,7 +238,7 @@ params:
     items:
       - title: "Bachelors of Science Software Systems in Computer Science"
         school:
-          name: "Simon Fraser University"
+          name: "Simon Fraser University, Burnaby, BC"
           url: "https://example.org"
         date: "2022 - 2025"
         GPA: "3.8 out of 5.0"
@@ -246,9 +246,13 @@ params:
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: true
+          name: "Projects I Made at SFU"
+          url: "https://example.com"
       - title: "Bachelor of Mathematics and Computer Science"
         school:
-          name: "University of British Columbia"
+          name: "University of British Columbia, Vancouver, BC"
           url: "https://example.org"
         date: "2020 - 2022"
         GPA: "3.9 out of 5.0"
@@ -262,16 +266,17 @@ params:
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
           enable: true
-          name: "My academic record"
+          name: "Projects I Made at UBC"
           url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
+      - title: "High School Diploma (Secondary School or GED)"
+        school: 
+          name: "Burnaby North Secondary School/Templeton Secondary School"
           url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+        GPA: "4.0 out of 4.0"
+        content: |-
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
 
   # Achievements
   achievements:
