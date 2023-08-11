@@ -68,8 +68,9 @@ jobs:
           # Commit and push to the target repo
           cd jaysqvl.github.io
           git add .
-          git commit -m "Update from source repo"
+          git diff --exit-code || git commit -m "Update from source repo"
           git push
 
       - name: Remove public directory
+        if: always()
         run: rm -rf public
