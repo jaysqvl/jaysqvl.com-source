@@ -119,8 +119,8 @@ params:
     enable: true
     intro: "> Hello World! My name is"
     title: "Jay Esquivel Jr."
-    subtitle: "Build to learn, Learn to build."
-    content: "Software Engineer based in Vancouver, BC. Exploring integrations of AI/ML into life! Trying to make the world a better place, one tool at a time. Check out my latest project which combines GPT and Langchain to respond to queries on any inputted PDFs."
+    subtitle: "Build to learn, learn to build."
+    content: "I'm a Software Engineering student based in Vancouver, BC exploring integrations of AI/ML into life! Check out my latest project which combines GPT and Langchain to respond to queries on any inputted PDFs."
     image: /images/hero.JPG
     bottomImage:
       enable: true
@@ -151,19 +151,25 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Trying to make the world a better place, one tool at a time. I have a background in Computer Science, Mathematics, and Physics as well as have a strong interest in data science and machine learning. 
+      
+      Fast-facts about me:
+        - Huge basketball fan, you'll find me in many different local leagues!
+        - Anime watcher so recommend me your best shows!
+        - Gamer, add me on Valorant: indivinity#diff
+        - Techie, I love to tinker with all the new gadgets!  
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
+        - "Python"
+        - "Langchain"
+        - "Huggingface"
+        - "PostgreSQL"
+        - "Java"
+        - "C++/C"
         - "JavaScript"
         - "React"
-        - "Node"
-        - "Express"
 
   # Experience
   # experience:
@@ -241,39 +247,58 @@ params:
           name: "Simon Fraser University, Burnaby, BC"
           url: "https://example.org"
         date: "2022 - 2025"
-        GPA: "3.8 out of 5.0"
+        GPA: "3.09 out of 4.33"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "Projects I Made at SFU"
-          url: "https://example.com"
+          Relevant Course Work
+            - CMPT210: Probability and Computing | Grade: B-
+            - MATH232: Applied Linear Algebra | Grade: B+
+            - MSE110: Mechatronics Design I | Grade: B+
+            - CMPT300: Operating Systems I | Grade: B-
+            - CMPT307: Data Structures | Grade: B
+            - STAT270: Probability and Statistics | Grade: B
+            - CMPT371: Data Communications/Networking | Grade: TBA
+        # featuredLink:
+        #   enable: true
+        #   name: "Projects I Made at SFU"
+        #   url: "https://example.com"
       - title: "Bachelor of Mathematics and Computer Science"
         school:
           name: "University of British Columbia, Vancouver, BC"
           url: "https://example.org"
         date: "2020 - 2022"
-        GPA: "3.9 out of 5.0"
+        GPA: "3.33 out of 4.33"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Relevant Course Work
+            - DSCI100: Data Science I | Grade: A-
+            - CPSC110: Computation, Programs, and Programming | Grade: A-
+            - CPSC121: Models of Computation | Grade: B+
+            - CPSC210: Software Construction | Grade: A-
+            - CPSC213: Computer Systems | Grade: B
+            - CPSC221: Algorithms and Data Structures | Grade: A-
+            - CPSC322: Artificial Intelligence | Grade: B
+
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "Projects I Made at UBC"
-          url: "https://example.com"
-      - title: "High School Diploma (Secondary School or GED)"
+            - CVC Social Club Executive Team Member (Multiple Roles)
+            - NWPlus Hackathon 2021
+            - NWPlus Hackathon 2020
+            - SustainHacks 2021
+        # featuredLink:
+        #   enable: true
+        #   name: "Projects I Made at UBC"
+        #   url: "https://example.com"
+      - title: "Dogwood Diploma (High/Secondary School Diploma)"
         school: 
           name: "Burnaby North Secondary School/Templeton Secondary School"
           url: "https://example.org"
-        GPA: "4.0 out of 4.0"
+        GPA: "4.0 out of 4.0 GPA"
         content: |-
+          Achievements
+            - Principal's List - 5 Years
+            - Honour Roll - 5 Years
+            - Basketball Team Captain - 3 Years
+            - Athlete of the Year - Grade 12
+          
           Extracurricular Activities
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
