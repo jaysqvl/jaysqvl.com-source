@@ -245,7 +245,7 @@ params:
       - title: "Bachelors of Science Software Systems in Computer Science"
         school:
           name: "Simon Fraser University, Burnaby, BC"
-          url: "https://example.org"
+          url: "https://www.sfu.ca/"
         date: "2022 - 2025"
         GPA: "3.09 out of 4.33"
         content: |-
@@ -257,6 +257,9 @@ params:
             - CMPT307: Data Structures | Grade: B
             - STAT270: Probability and Statistics | Grade: B
             - CMPT371: Data Communications/Networking | Grade: TBA
+
+          Extracurricular Activities
+            - NWPlus Hackathon 2022
         # featuredLink:
         #   enable: true
         #   name: "Projects I Made at SFU"
@@ -264,7 +267,7 @@ params:
       - title: "Bachelor of Mathematics and Computer Science"
         school:
           name: "University of British Columbia, Vancouver, BC"
-          url: "https://example.org"
+          url: "https://www.ubc.ca/"
         date: "2020 - 2022"
         GPA: "3.33 out of 4.33"
         content: |-
@@ -290,40 +293,47 @@ params:
       - title: "Dogwood Diploma (High/Secondary School Diploma)"
         school: 
           name: "Burnaby North Secondary School/Templeton Secondary School"
-          url: "https://example.org"
-        GPA: "4.0 out of 4.0 GPA"
+          url: "https://north.burnabyschools.ca/"
+        GPA: "4.0 out of 4.0"
         content: |-
           Achievements
             - Principal's List - 5 Years
             - Honour Roll - 5 Years
             - Basketball Team Captain - 3 Years
             - Athlete of the Year - Grade 12
-          
+            - 2019 and 2020 Advanced Placement Scholar with Honor
+
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          
+          - Student Lead Clubs: 
+            - VikingsDev Coding Club
+            - The Noble Tutors Club
+            - Leos Leadership Club
+          - School Organized Associations
+            - Mini School Honours Program & Mini School Student Council
+            - Student Council
 
   # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #       image: /images/achievment.jpg
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #       image: /images/achievment.jpg
+  #     - title: Hugo Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #       image: /images/achievment.jpg
+  #     - title: Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
 
   # projects
   projects:
