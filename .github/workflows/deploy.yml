@@ -48,8 +48,11 @@ jobs:
           # Clone the target repo to a temporary "target_repo" folder
           git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/jaysqvl/jaysqvl.github.io.git jaysqvl.github.io
 
-          # Backup files you want to keep
-          [ -f jaysqvl.github.io/CNAME ] && cp jaysqvl.github.io/CNAME CNAME.backup
+          # Backup the CNAME file, if it exists
+          if [ -f jaysqvl.github.io/CNAME ]; then
+              cp jaysqvl.github.io/CNAME CNAME.backup
+          fi
+
 
           # Remove all files in the target repo (excluding the .git directory)
           rm -rf jaysqvl.github.io/*
@@ -57,8 +60,10 @@ jobs:
           # Copy only contents of 'public' folder from source repo to the root of target repo
           rsync -av public/ jaysqvl.github.io/
 
-          # Restore backed up files
-          [ -f CNAME.backup ] && cp CNAME.backup jaysqvl.github.io/CNAME
+          # Restore the CNAME file from backup, if it was backed up
+          if [ -f CNAME.backup ]; then
+              cp CNAME.backup jaysqvl.github.io/CNAME
+          fi
 
           # Commit and push to the target repo
           cd jaysqvl.github.io
