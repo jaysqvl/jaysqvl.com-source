@@ -134,7 +134,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://github.com/jsqvl
+          url: https://github.com/jaysqvl
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/jaysqvl/
         - icon: fab fa-twitter
@@ -342,17 +342,17 @@ params:
     items:
       - title: Impersonator
         content: Query any inputted text/PDFs by attaching them to any LLM!
-        image: /images/projects/profile.png
+        image: /images/projects/impersonator.png
         featured:
           name: Demo
-          link: https://github.com/jsqvl/impersonator
+          link: https://github.com/jaysqvl/impersonator
         badges:
           - "Python"
           - "Langchain"
           - "Streamlit"
         links:
           - icon: fab fa-github
-            url: https://github.com/jsqvl/impersonator
+            url: https://github.com/jaysqvl/impersonator
 
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
