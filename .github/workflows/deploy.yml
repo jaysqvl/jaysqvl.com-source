@@ -42,20 +42,20 @@ jobs:
 
       - name: Push public folder contents to target repo root
         run: |
-          git config --global user.name "jsqvl"
+          git config --global user.name "jaysqvl"
           git config --global user.email "jaysqvl@gmail.com"
 
           # Clone the target repo to a temporary "target_repo" folder
-          git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/jsqvl/jsqvl.github.io.git jsqvl.github.io
+          git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/jaysqvl/jaysqvl.github.io.git jaysqvl.github.io
 
           # Remove all files in the target repo (excluding the .git directory)
-          rm -rf jsqvl.github.io/*
+          rm -rf jaysqvl.github.io/*
 
           # Copy only contents of 'public' folder from source repo to the root of target repo
-          rsync -av public/ jsqvl.github.io/
+          rsync -av public/ jaysqvl.github.io/
 
           # Commit and push to the target repo
-          cd jsqvl.github.io
+          cd jaysqvl.github.io
           git add .
           git commit -m "Update from source repo"
           git push
