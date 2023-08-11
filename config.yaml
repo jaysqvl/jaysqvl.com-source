@@ -1,7 +1,7 @@
-baseURL: "https://jsqvl.github.io/personal-website"
+baseURL: 'https://jsqvl.github.io/'
 languageCode: "en-us"
 title: "Jay Esquivel Jr."
-theme: hugo-profile
+theme: 'hugo-profile'
 
 outputs:
   home:
