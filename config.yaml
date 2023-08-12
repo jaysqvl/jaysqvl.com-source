@@ -354,32 +354,84 @@ params:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/impersonator
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: Hercules
+        content: Gamified Health and Fitness App written in Java for Android
         image: /images/projects/converter.jpg
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://www.youtube.com/watch?v=h7hHna3sPq8&ab_channel=NafisAhsan
         badges:
           - "Django"
           - "Bootstrap"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/jaysqvl/hercules
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: Divide and Conquer Socket Programming Game
+        content: Server and Client application that uses sockets to communicate locally over a LAN
         image: /images/projects/profile2.jpg
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Demo
+          link: https://drive.google.com/file/d/1V-U8bwtCIGmnlPYW5cCZNUvsP1jTNSAc/view
         badges:
           - "Hugo"
           - "Bootstrap"
           - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/jaysqvl/divide-and-conquer-socket-program
+      
+      - title: Decode Backend (SustainHacks 2nd Place)
+        content: The back-end REST Api for Decode, the shopping sustainability Chrome Extension/Website
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://www.youtube.com/watch?v=ZcLToAFm-wI&ab_channel=ShayHayashi
+        badges:
+          - "Django"
+          - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jaysqvl/decode-backend
+
+      - title: peerAdvice
+        content: Prototype UBC Student-Lead Advising Alternative
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://www.youtube.com/watch?v=_7WZNNuexCQ&ab_channel=JayEsquivel
+        badges:
+          - "Django"
+          - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jaysqvl/peeradvice
+  
+      - title: UBC Course Getter
+        content: "A tool for UBC students that automatically enrolls in courses and includes the ability to circumvent bot detection."
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://github.com/jaysqvl/get-me-in-a-course
+        badges:
+          - "Django"
+          - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jaysqvl/get-me-in-a-course
+
+      - title: Unclutter Your Life
+        content: Robust to do list project application written in Java created with JUnit test and other SWE design principles
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://github.com/jaysqvl/unclutter
+        badges:
+          - "Django"
+          - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jaysqvl/unclutter
 
   #Contact
   contact:
