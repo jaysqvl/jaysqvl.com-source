@@ -59,11 +59,14 @@ jobs:
 
           # Create the CNAME file with the desired content
           echo "jaysqvl.com" > jaysqvl.github.io/CNAME
-
+          cat jaysqvl.github.io/CNAME
+          
           # Commit and push to the target repo
           cd jaysqvl.github.io
+          git status
           git add .
           git diff --exit-code || git commit -m "Update from source repo"
+          git status
           git push
 
       - name: Remove public directory
