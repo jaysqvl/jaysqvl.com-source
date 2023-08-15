@@ -340,6 +340,18 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: This Hugo Website!
+        content: This website was built using Hugo and the hugo-profile theme!
+        image: /images/projects/hugoprofile.jpg
+        badges: 
+          - "Hugo"
+          - "Github Actions"
+          - "HTML"
+          - "CSS"
+          - "JavaScript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jaysqvl/jaysqvl.com-source
       - title: Impersonator
         content: Query any inputted text/PDFs by attaching them to any LLM!
         image: /images/projects/impersonator.jpg
@@ -350,6 +362,8 @@ params:
           - "Python"
           - "Langchain"
           - "Streamlit"
+          - "Supabase"
+          - "Pinecone"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/impersonator
@@ -404,19 +418,19 @@ params:
           - "CSS"
           - "JavaScript"
           - "Python"
+          - "Flask"
           - "PostgreSQL"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/peeradvice
   
       - title: UBC Course Getter
-        content: "A tool for UBC students that automatically enrolls in courses and includes the ability to circumvent bot detection."
+        content: "A command-line webscraping tool for UBC students that circumvents bot detection to automatically enroll you in classes!"
         image: /images/projects/ubccoursegetter.jpg
-        featured:
-          name: Demo
-          link: https://github.com/jaysqvl/get-me-in-a-course
         badges:
           - "Python"
+          - "Docker"
+          - "AWS"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/get-me-in-a-course
@@ -429,6 +443,8 @@ params:
           link: https://github.com/jaysqvl/unclutter
         badges:
           - "Java"
+          - "JUnit"
+          - "Java Swing"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/unclutter
