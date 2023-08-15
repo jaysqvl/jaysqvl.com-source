@@ -40,6 +40,9 @@ jobs:
           HUGO_ENV: production
         run: hugo --minify
 
+      - name: Install rsync
+        run: sudo apt-get install -y rsync
+
       - name: Push public folder contents to target repo root
         run: |
           git config --global user.name "jaysqvl"
@@ -53,12 +56,11 @@ jobs:
               cp jaysqvl.github.io/CNAME CNAME.backup
           fi
 
-
           # Remove all files in the target repo (excluding the .git directory)
           rm -rf jaysqvl.github.io/*
 
           # Copy only contents of 'public' folder from source repo to the root of target repo
-          rsync -av public/ jaysqvl.github.io/
+          rsync -av --delete public/ jaysqvl.github.io/
 
           # Restore the CNAME file from backup, if it was backed up
           if [ -f CNAME.backup ]; then
@@ -68,7 +70,7 @@ jobs:
           # Commit and push to the target repo
           cd jaysqvl.github.io
           git add .
-          git diff --exit-code || git commit -m "Update from source repo"
+          git commit -m "Update from source repo" || echo "No changes to commit"
           git push
 
       - name: Remove public directory
