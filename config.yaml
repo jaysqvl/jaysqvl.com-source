@@ -342,7 +342,7 @@ params:
     items:
       - title: Impersonator
         content: Query any inputted text/PDFs by attaching them to any LLM!
-        image: /images/projects/impersonator.png
+        image: /images/projects/impersonator.jpg
         featured:
           name: Demo
           link: https://github.com/jaysqvl/impersonator
@@ -356,79 +356,79 @@ params:
 
       - title: Hercules
         content: Gamified Health and Fitness App written in Java for Android
-        image: /images/projects/converter.jpg
+        image: /images/projects/hercules.jpg
         featured:
           name: Demo
           link: https://www.youtube.com/watch?v=h7hHna3sPq8&ab_channel=NafisAhsan
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Java"
+          - "Android"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/hercules
 
       - title: Divide and Conquer Socket Programming Game
         content: Server and Client application that uses sockets to communicate locally over a LAN
-        image: /images/projects/profile2.jpg
+        image: /images/projects/dac.jpg
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1V-U8bwtCIGmnlPYW5cCZNUvsP1jTNSAc/view
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Java"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/divide-and-conquer-socket-program
       
       - title: Decode Backend (SustainHacks 2nd Place)
         content: The back-end REST Api for Decode, the shopping sustainability Chrome Extension/Website
-        image: /images/projects/converter.jpg
+        image: /images/projects/decode.jpg
         featured:
           name: Demo
           link: https://www.youtube.com/watch?v=ZcLToAFm-wI&ab_channel=ShayHayashi
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Python"
+          - "Flask"
+          - "Javascript"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/decode-backend
 
       - title: peerAdvice
         content: Prototype UBC Student-Lead Advising Alternative
-        image: /images/projects/converter.jpg
+        image: /images/projects/peeradvice.jpg
         featured:
           name: Demo
           link: https://www.youtube.com/watch?v=_7WZNNuexCQ&ab_channel=JayEsquivel
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "HTML"
+          - "CSS"
+          - "JavaScript"
+          - "Python"
+          - "PostgreSQL"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/peeradvice
   
       - title: UBC Course Getter
         content: "A tool for UBC students that automatically enrolls in courses and includes the ability to circumvent bot detection."
-        image: /images/projects/converter.jpg
+        image: /images/projects/ubccoursegetter.jpg
         featured:
           name: Demo
           link: https://github.com/jaysqvl/get-me-in-a-course
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Python"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/get-me-in-a-course
 
       - title: Unclutter Your Life
         content: Robust to do list project application written in Java created with JUnit test and other SWE design principles
-        image: /images/projects/converter.jpg
+        image: /images/projects/unclutter.jpg
         featured:
           name: Demo
           link: https://github.com/jaysqvl/unclutter
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Java"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/unclutter
