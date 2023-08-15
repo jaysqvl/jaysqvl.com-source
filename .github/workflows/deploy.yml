@@ -51,21 +51,23 @@ jobs:
           # Clone the target repo to a temporary "target_repo" folder
           git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/jaysqvl/jaysqvl.github.io.git jaysqvl.github.io
 
+          # Move the CNAME file to a temporary location
+          mv jaysqvl.github.io/CNAME ../CNAME.temp
+
           # Remove all files in the target repo (excluding the .git directory)
           rm -rf jaysqvl.github.io/*
 
+          # Move the CNAME file back
+          mv ../CNAME.temp jaysqvl.github.io/CNAME
+
           # Copy only contents of 'public' folder from source repo to the root of target repo
           rsync -av public/ jaysqvl.github.io/
-
-          # Create the CNAME file with the desired content
-          echo "jaysqvl.com" > jaysqvl.github.io/CNAME
-          cat jaysqvl.github.io/CNAME
           
           # Commit and push to the target repo
           cd jaysqvl.github.io
           git status
           git add .
-          git diff --exit-code || git commit -m "Update from source repo"
+          git diff --cached --exit-code || git commit -m "Update from source repo"
           git status
           git push
 
