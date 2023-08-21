@@ -338,7 +338,7 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Some Projects"
     items:
       - title: This Hugo Website!
         content: This website was built using Hugo and the hugo-profile theme!
