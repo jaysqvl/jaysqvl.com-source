@@ -121,7 +121,7 @@ params:
     title: "Jay Esquivel Jr."
     subtitle: "Build to learn, learn to build."
     content: "I'm a Software Engineering student based in Vancouver, BC exploring integrations of AI/ML into life! Check out my latest project which combines GPT and Langchain to respond to queries on any inputted PDFs."
-    image: /images/hero.JPG
+    image: /images/hero.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -342,7 +342,7 @@ params:
     items:
       - title: This Hugo Website!
         content: This website was built using Hugo and the hugo-profile theme!
-        image: /images/projects/hugoprofile.jpg
+        image: /images/projects/websitelight.jpg
         badges: 
           - "Hugo"
           - "Github Actions"
@@ -370,7 +370,7 @@ params:
 
       - title: Hercules
         content: Gamified Health and Fitness App written in Java for Android
-        image: /images/projects/hercules.jpg
+        image: /images/projects/hercules.png
         featured:
           name: Demo
           link: https://www.youtube.com/watch?v=h7hHna3sPq8&ab_channel=NafisAhsan
@@ -395,7 +395,7 @@ params:
       
       - title: Decode Backend (SustainHacks 2nd Place)
         content: The back-end REST Api for Decode, the shopping sustainability Chrome Extension/Website
-        image: /images/projects/decode.jpg
+        image: /images/projects/decode.gif
         featured:
           name: Demo
           link: https://www.youtube.com/watch?v=ZcLToAFm-wI&ab_channel=ShayHayashi
@@ -409,7 +409,7 @@ params:
 
       - title: peerAdvice
         content: Prototype UBC Student-Lead Advising Alternative
-        image: /images/projects/peeradvice.jpg
+        image: /images/projects/peeradvice.gif
         featured:
           name: Demo
           link: https://www.youtube.com/watch?v=_7WZNNuexCQ&ab_channel=JayEsquivel
@@ -437,7 +437,7 @@ params:
 
       - title: Unclutter Your Life
         content: Robust to do list project application written in Java created with JUnit test and other SWE design principles
-        image: /images/projects/unclutter.jpg
+        image: /images/projects/unclutter.gif
         featured:
           name: Demo
           link: https://github.com/jaysqvl/unclutter
