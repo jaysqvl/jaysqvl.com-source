@@ -121,7 +121,7 @@ params:
     title: "Jay Esquivel Jr."
     subtitle: "Build to learn, learn to build."
     content: "I'm a Software Engineering student based in Vancouver, BC exploring integrations of AI/ML into life! Check out my latest project which combines GPT and Langchain to respond to queries on any inputted PDFs."
-    image: /images/hero.jpg
+    image: /images/hero1.JPG
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
