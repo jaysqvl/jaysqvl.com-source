@@ -360,10 +360,11 @@ params:
           link: https://github.com/jaysqvl/impersonator
         badges:
           - "Python"
+          - "Docker"
           - "Langchain"
           - "Streamlit"
-          - "Supabase"
-          - "Pinecone"
+          - "Supabase VDB"
+          - "Pinecone VDB"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/impersonator
