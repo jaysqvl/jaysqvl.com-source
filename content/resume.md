@@ -9,4 +9,4 @@ layout: "gallery"
 # socialShare: false
 ---
 <p style="text-align: center;">Download me!</p>
-{{< embed-pdf url="/Resume.pdf" hidePaginator="true" >}}
+{{< embed-pdf url="../resume.pdf" hidePaginator="true" >}}
