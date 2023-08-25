@@ -53,6 +53,8 @@ jobs:
         run: |
           pwd
           
+          cd src
+
           git config --global user.name "jaysqvl"
           git config --global user.email "jaysqvl@gmail.com"
           
