@@ -12,12 +12,17 @@ Step 2. Initialize the submodules
 git submodule init
 ~~~
 
-Step 3. Create the development server and see changes in realtime
+Step 3. Change to the src directory
+~~~
+cd src
+~~~
+
+Step 4. Create the development server and see changes in realtime
 ~~~
 hugo server -D
 ~~~
 
-(Optional) Step 4. Generate the static website for deployment
+(Optional) Step 5. Generate the static website for deployment
 ~~~
 hugo
 ~~~
