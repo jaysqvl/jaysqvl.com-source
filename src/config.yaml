@@ -122,7 +122,7 @@ params:
     title: "Jay Esquivel Jr."
     subtitle: "Build to learn, learn to build."
     content: "I'm a Software Engineering student based in Vancouver, BC exploring integrations of AI/ML into life! Check out my latest project which combines GPT and Langchain to respond to queries on any inputted PDFs."
-    image: /images/hero1.JPG
+    image: /images/hero.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -356,7 +356,7 @@ params:
             url: https://github.com/jaysqvl/jaysqvl.com-source
       - title: Impersonator
         content: Query any inputted text/PDFs by attaching them to any LLM!
-        image: /images/projects/impersonator.png
+        image: /images/projects/impersonator.jpg
         featured:
           name: Demo
           link: https://github.com/jaysqvl/impersonator
@@ -373,7 +373,7 @@ params:
 
       - title: Hercules
         content: Gamified Health and Fitness App written in Java for Android
-        image: /images/projects/hercules.png
+        image: /images/projects/hercules.jpg
         featured:
           name: Demo
           link: https://www.youtube.com/watch?v=h7hHna3sPq8&ab_channel=NafisAhsan
@@ -386,7 +386,7 @@ params:
 
       - title: Divide and Conquer Socket Programming Game
         content: Server and Client application that uses sockets to communicate locally over a LAN
-        image: /images/projects/dac.png
+        image: /images/projects/dac.jpg
         featured:
           name: Demo
           link: https://drive.google.com/file/d/1V-U8bwtCIGmnlPYW5cCZNUvsP1jTNSAc/view
