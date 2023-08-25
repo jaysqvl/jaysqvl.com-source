@@ -1,6 +1,0 @@
-[submodule "src/themes/hugo-profile"]
-	path = src/themes/hugo-profile
-	url = https://github.com/gurusabarish/hugo-profile.git
-[submodule "src/themes/hugo-embed-pdf-shortcode"]
-	path = src/themes/hugo-embed-pdf-shortcode
-	url = https://github.com/anvithks/hugo-embed-pdf-shortcode.git
