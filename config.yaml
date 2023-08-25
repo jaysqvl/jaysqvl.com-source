@@ -150,7 +150,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.jpg"
+    image: "/images/me.gif"
     content: |-
       Trying to make the world a better place, one tool at a time. I have a background in Computer Science, Mathematics, and Physics as well as have a strong interest in data science and machine learning. 
       
@@ -158,18 +158,18 @@ params:
         - Huge basketball fan, you'll find me in many different local leagues!
         - Anime watcher so recommend me your best shows!
         - Gamer, add me on Valorant: indivinity#diff
-        - Techie, I love to tinker with all the new gadgets!  
+        - Techie, I love to tinker with all the new gadgets!
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a some tools I've been sharpening my skills with recently:"
       items:
         - "Python"
         - "Langchain"
         - "Huggingface"
+        - "JavaScript"
         - "PostgreSQL"
         - "Java"
-        - "C++/C"
-        - "JavaScript"
+        - "Docker"
         - "React"
 
   # Experience
@@ -392,6 +392,8 @@ params:
           link: https://drive.google.com/file/d/1V-U8bwtCIGmnlPYW5cCZNUvsP1jTNSAc/view
         badges:
           - "Java"
+          - "Java Swing"
+          - "Sockets"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/divide-and-conquer-socket-program
@@ -448,6 +450,7 @@ params:
           - "Java"
           - "JUnit"
           - "Java Swing"
+          - "GitHub Actions"
         links:
           - icon: fab fa-github
             url: https://github.com/jaysqvl/unclutter
