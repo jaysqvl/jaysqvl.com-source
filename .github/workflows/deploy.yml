@@ -42,12 +42,15 @@ jobs:
 
       - name: Install rsync
         run: sudo apt-get install -y rsync
-
+      
+      - name: Get commit message
+        run: echo "COMMIT_MESSAGE=$(git log --format=%B -n 1 ${{ github.event.after }})" >> $GITHUB_ENV
+      
       - name: Push public folder contents to target repo root
         run: |
           git config --global user.name "jaysqvl"
           git config --global user.email "jaysqvl@gmail.com"
-
+          
           # Clone the target repo to a temporary "target_repo" folder
           git clone https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/jaysqvl/jaysqvl.github.io.git jaysqvl.github.io
 
@@ -67,7 +70,7 @@ jobs:
           cd jaysqvl.github.io
           git status
           git add .
-          git diff --cached --exit-code || git commit -m "Update from source repo"
+          git diff --cached --exit-code || git commit -m "${{ env.COMMIT_MESSAGE }}"
           git status
           git push
 
