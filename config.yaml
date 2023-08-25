@@ -1,7 +1,8 @@
 baseURL: 'https://jaysqvl.github.io/'
 languageCode: "en-us"
 title: "Jay Esquivel Jr."
-theme: 'hugo-profile'
+theme: ["hugo-embed-pdf-shortcode", "hugo-profile"]
+enableInLineShortcodes: true
 
 outputs:
   home:
@@ -22,13 +23,13 @@ markup:
     renderer:
       unsafe: true
 
-# Menus:
-#   main:
-    # - identifier: blog
-    #   name: Blog
-    #   title: Blog posts
-    #   url: /blogs
-    #   weight: 1
+Menus:
+  main:
+    - identifier: resume
+      name: Resume
+      title: Resume Viewer
+      url: "/resume"
+      weight: 1
     # - identifier: gallery
     #   name: Gallery
     #   title: Blog posts
@@ -128,8 +129,8 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
-      download: true
+      url: "/resume"
+      download: false
       newPage: false
     socialLinks:
       fontAwesomeIcons:
@@ -259,6 +260,7 @@ params:
             - CMPT371: Data Communications/Networking | Grade: TBA
 
           Extracurricular Activities
+            - (*Active) UBC CVC Cultural and Social Society Executive Member (Multiple Roles)
             - NWPlus Hackathon 2022
         # featuredLink:
         #   enable: true
@@ -280,9 +282,8 @@ params:
             - CPSC221: Algorithms and Data Structures | Grade: A-
             - CPSC322: Artificial Intelligence | Grade: B
 
-
           Extracurricular Activities
-            - CVC Social Club Executive Team Member (Multiple Roles)
+            - UBC CVC Cultural and Social Society Executive Member (Multiple Roles)
             - NWPlus Hackathon 2021
             - NWPlus Hackathon 2020
             - SustainHacks 2021
@@ -312,6 +313,7 @@ params:
           - School Organized Associations
             - Mini School Honours Program & Mini School Student Council
             - Student Council
+            - Athletics Council
 
   # Achievements
   # achievements:
