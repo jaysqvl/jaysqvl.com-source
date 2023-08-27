@@ -9,4 +9,4 @@ layout: "gallery"
 # socialShare: false
 ---
 <p style="text-align: center;">Download me!</p>
-{{< embed-pdf url="../resume/resume.pdf" hidePaginator="true" >}}
+{{< embed-pdf url="../resume/Jay_EsquivelJr_resume.pdf" hidePaginator="true" >}}
