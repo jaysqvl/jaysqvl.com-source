@@ -138,10 +138,10 @@ params:
           url: https://github.com/jaysqvl
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/jaysqvl/
-        - icon: fab fa-twitter
-          url: https://twitter.com/jaysqvl
-        - icon: fab fa-instagram
-          url: https://www.instagram.com/jaysqvl/
+        # - icon: fab fa-twitter
+        #   url: https://twitter.com/jaysqvl
+        # - icon: fab fa-instagram
+        #   url: https://www.instagram.com/jaysqvl/
       # customIcons:
       #   - icon: /fav.png
       #     url: "https://example.com"
