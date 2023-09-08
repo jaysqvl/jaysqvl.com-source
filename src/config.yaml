@@ -342,12 +342,29 @@ params:
     enable: true
     title: "Some Projects"
     items:
+      - title: CartCompass
+        content: This is a website/chrome-extension that aims to enhance your item comparison/shopping experience. Never buy the wrong brand/product again!
+        image: /images/projects/compass.jpg
+        badges: 
+          - "HTML"
+          - "CSS"
+          - "JavaScript"
+          - "Node"
+          - "Express"
+          - "React"
+          - "MongoDB"
+          - "Google Sheets API"
+          - "Chrome API"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jaysqvl/cartcompass
       - title: This Hugo Website!
         content: This website was built using Hugo and the hugo-profile theme!
         image: /images/projects/websitelight.jpg
         badges: 
           - "Hugo"
-          - "Github Actions"
+          - "GitHub Actions"
+          - "GitHub Pages"
           - "HTML"
           - "CSS"
           - "JavaScript"
@@ -363,7 +380,9 @@ params:
         badges:
           - "Python"
           - "Docker"
+          - "OpenAI"
           - "Langchain"
+          - "HuggingFace"
           - "Streamlit"
           - "Supabase VDB"
           - "Pinecone VDB"
