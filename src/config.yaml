@@ -243,7 +243,7 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Bachelors of Science Software Systems in Computer Science"
+      - title: "Bachelors of Applied Science, Computer Science - Software Systems"
         school:
           name: "Simon Fraser University, Burnaby, BC"
           url: "https://www.sfu.ca/"
@@ -260,13 +260,13 @@ params:
             - CMPT371: Data Communications/Networking | Grade: TBA
 
           Extracurricular Activities
-            - (*Active) UBC CVC Cultural and Social Society Executive Member (Multiple Roles)
+            - (Active) UBC CVC Cultural and Social Society Executive Member (Multiple Roles)
             - NWPlus Hackathon 2022
         # featuredLink:
         #   enable: true
         #   name: "Projects I Made at SFU"
         #   url: "https://example.com"
-      - title: "Bachelor of Mathematics and Computer Science"
+      - title: "Bachelor of Science, Computer Science"
         school:
           name: "University of British Columbia, Vancouver, BC"
           url: "https://www.ubc.ca/"
