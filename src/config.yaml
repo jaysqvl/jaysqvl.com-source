@@ -496,19 +496,19 @@ params:
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
 
-  footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
-    socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+  # footer:
+    # recentPosts:
+    #   path: "blogs"
+    #   count: 3
+    #   title: Recent Posts
+    #   enable: true
+    #   disableFeaturedImage: false
+    # socialNetworks:
+    #   github: https://github.com
+    #   linkedin: https://linkedin.com
+    #   twitter: https://twitter.com
+    #   instagram: https://instagram.com
+    #   facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
